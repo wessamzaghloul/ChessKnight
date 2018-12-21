@@ -1,0 +1,26 @@
+$breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+/////////////////
+// Fonts
+////////////////
+$font-sizes: ( xxxs: 10px, xxs: 11px, xs:12px, sm: 14px, md:16px, lg:18px, xl: 20px, xxl: 25px, xxxl: 35px, xxxxl: 46px);
+//////
+$xxxxl-font: ( null: map-get($font-sizes, xxl), xs: map-get($font-sizes, xxl), md: map-get($font-sizes, xxxl), lg: map-get($font-sizes, xxxxl));
+$xxxl-font: ( null: map-get($font-sizes, xl), xs: map-get($font-sizes, xl), md: map-get($font-sizes, xxl), lg: map-get($font-sizes, xxxl));
+$xxl-font: ( null: map-get($font-sizes, lg), xs: map-get($font-sizes, lg), md: map-get($font-sizes, xl), lg: map-get($font-sizes, xxl));
+$xl-font: ( null: map-get($font-sizes, md), xs: map-get($font-sizes, md), md: map-get($font-sizes, lg), lg: map-get($font-sizes, xl));
+$lg-font: ( null: map-get($font-sizes, sm), xs: map-get($font-sizes, sm), md: map-get($font-sizes, md), lg: map-get($font-sizes, lg));
+$md-font: ( null: map-get($font-sizes, xs), xs: map-get($font-sizes, xs), md: map-get($font-sizes, sm), lg: map-get($font-sizes, md));
+$sm-font: ( null: map-get($font-sizes, xs), xs: map-get($font-sizes, xs), md: map-get($font-sizes, xs), lg: map-get($font-sizes, sm));
+$xs-font: ( null: map-get($font-sizes, xxs), xs: map-get($font-sizes, xxs), md: map-get($font-sizes, xxs), lg: map-get($font-sizes, xs));
+$xxs-font: ( null: map-get($font-sizes, xxxs), xs: map-get($font-sizes, xxxs), md: map-get($font-sizes, xxxs), lg: map-get($font-sizes, xxs));
+
+
+/////////////////
+// Colors
+////////////////
+$text: #421C52;
+$pale: #beb0d0;
+$dark-tile: #8E7BA7;
+$light-tile: #FCFDF5;
+$highlight: #B7E1E0;
+$font: 'Indie Flower', cursive;

@@ -1,0 +1,25 @@
+@import 'theme/index';
+
+body {
+  font: 14px $font;
+  background: $pale;
+  color: $text;
+  margin: 10vw;
+	@include md{
+		margin: 20px;
+	}
+
+  main {
+    padding: 0;
+    margin: 0 auto;
+    
+    h1{
+      @include font-size($xxxxl-font);
+      text-align: center;
+    }
+    p{
+      @include font-size($xxl-font);
+      text-align: center;
+    }
+  }
+}

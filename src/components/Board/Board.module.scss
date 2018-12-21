@@ -1,0 +1,12 @@
+@import '~styles/theme/index';
+.board{
+    display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	align-items: stretch;
+	align-content: flex-start;
+	margin: 0 auto;
+	@include md{
+		width: 640px;
+	}
+}

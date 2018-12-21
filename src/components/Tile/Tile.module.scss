@@ -1,0 +1,35 @@
+@import '~styles/theme/index';
+
+.tile {
+    margin-right: -1px;
+    margin-top: -1px;
+    outline: none;
+    border: none;
+    width: 10vw;
+    height: 10vw;
+    line-height: 1.35rem;
+    font-size: 30px;
+    color: $text;
+    transition: background-color 300ms ease-out;
+    @include md{
+        width: 80px;
+        height: 80px;
+        font-size: 45px;
+    }
+}
+
+.light {
+    background: $light-tile;
+}
+
+.dark {
+    background: $dark-tile;
+    
+}
+.highlighted{
+    background: $highlight;
+
+}
+.selected{
+    background: darken($highlight, 15%);
+}
