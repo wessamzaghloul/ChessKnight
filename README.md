@@ -1,4 +1,4 @@
-Chess Knight<br>
+## Chess Knight
 
 it is a simple application that shows how the chess knight moves, it allows the user to choose a chess tile and see how the knight can make it to that tile in the simple L shapes. this application can be a good illustration for teaching kids how the chess knight moves.
 
