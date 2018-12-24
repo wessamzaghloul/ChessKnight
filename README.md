@@ -1,3 +1,7 @@
+Chess Knight<br>
+
+it is a simple application that shows how the chess knight moves, it allows the user to choose a chess tile and see how the knight can make it to that tile in the simple L shapes. this application can be a good illustration for teaching kids how the chess knight moves.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
